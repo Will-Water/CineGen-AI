@@ -5,9 +5,7 @@
 > **工业级 AI 漫剧与视频生成工作台**
 > *Industrial AI Motion Comic & Video Workbench*
 
-[中文](./README.md)
-[English](./README_EN.md)
-[日本語](./README_JA.md)
+[中文](./README.md) ｜ [English](./README_EN.md) ｜  [日本語](./README_JA.md)
 
 **CineGen AI Director** 是一个专为 **AI 漫剧 (Motion Comics)**、**动态漫画**及**影视分镜 (Animatic)** 设计的专业生产力工具。
 
