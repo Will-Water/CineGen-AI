@@ -1,6 +1,8 @@
 # CineGen AI Director (AI 漫剧工场)
 
-灵感来自于 [AniKuku AI 漫剧工坊](https://anikuku.com/?github) 
+灵感来自于 [AniKuku AI 漫剧工坊](https://anikuku.com/?github) —— 一站式的漫剧制作平台。
+
+
 
 > **工业级 AI 漫剧与视频生成工作台**
 > *Industrial AI Motion Comic & Video Workbench*
