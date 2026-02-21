@@ -2,7 +2,11 @@ import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
 import { ScriptData, Shot, Character, Scene } from "../types";
 
 // Module-level variable to store the key at runtime
-let runtimeApiKey: string = process.env.API_KEY || "";
+const initialApiKey =
+  (typeof import.meta !== 'undefined' && (import.meta as any).env?.VITE_API_KEY) ||
+  (globalThis as any)?.process?.env?.API_KEY ||
+  "";
+let runtimeApiKey: string = initialApiKey;
 
 export const setGlobalApiKey = (key: string) => {
   runtimeApiKey = key;
